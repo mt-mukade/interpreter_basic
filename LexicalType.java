@@ -1,11 +1,11 @@
 package newlang4;
 
 public enum LexicalType {
-	LITERAL,	// ������萔�@�i��F�@�g������h�j
-	INTVAL,		// �����萔	�i��F�@�R�j
-	DOUBLEVAL,	// �����_�萔	�i��F�@�P�D�Q�j
-	NAME,		// �ϐ�		�i��F�@i�j
-	IF,			// IF
+	LITERAL,	// 文字列定数
+	INTVAL,		// 整数定数
+	DOUBLEVAL,	// 小数点定数
+	NAME,		// 変数	
+	IF,		// IF
 	THEN,		// THEN
 	ELSE,		// ELSE
 	ELSEIF,		// ELSEIF
@@ -13,30 +13,30 @@ public enum LexicalType {
 	FOR,		// FOR
 	FORALL,		// FORALL
 	NEXT	,	// NEXT
-	EQ,			// =
-	LT,			// <
-	GT,			// >
-	LE,			// <=, =<
-	GE,			// >=, =>
-	NE,			// <>
+	EQ,		// =
+	LT,		// <
+	GT,		// >
+	LE,		// <=, =<
+	GE,		// >=, =>
+	NE,		// <>
 	FUNC,		// SUB
 	DIM,		// DIM
-	AS,			// AS
+	AS,		// AS
 	END,		// END
-	NL,			// ���s
+	NL,		// 改行
 	DOT,		// .
 	WHILE,		// WHILE
-	DO,			// DO
+	DO,		// DO
 	UNTIL,		// UNTIL
 	ADD,		// +
 	SUB,		// -
 	MUL,		// *
 	DIV,		// /
-	RP,			// )
-	LP,			// (
+	RP,		// )
+	LP,		// (
 	COMMA,		// ,
 	LOOP,		// LOOP
-	TO,			// TO
+	TO,		// TO
 	WEND,		// WEND
 	EOF,		// end of file
 }
