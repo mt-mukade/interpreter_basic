@@ -1,10 +1,5 @@
 package newlang4;
 
-
-/**
- *
- * @author tago
- */
 public class Function {
 
     /** Creates a new instance of Function */
